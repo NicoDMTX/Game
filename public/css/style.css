@@ -1,4 +1,25 @@
 body {
-  background-color: burlywood;
+    background-color: #1E2824;
+    margin: 0%;
+    padding: 0%;
 }
-/*# sourceMappingURL=style.css.map */
+
+#title {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.container__character {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.character__background {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 40vh;
+    background-color: #ffffff6e;
+}
+
